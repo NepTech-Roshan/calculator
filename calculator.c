@@ -40,7 +40,7 @@ void main() {
         }
         printf("----- ----- ----\n");
         printf("Do u want to continue[Y/N]:");
-        scanf(" %c",&choice);
+        scanf("%s",&choice);
     } while(choice =='y' || choice == 'Y');
 }
     
